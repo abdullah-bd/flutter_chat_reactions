@@ -190,6 +190,7 @@ class _ReactionsDialogWidgetState extends State<ReactionsDialogWidget> {
       child: Material(
         color: Colors.transparent,
         child: Container(
+          width: MediaQuery.of(context).size.width * .9,
           padding: const EdgeInsets.all(5),
           decoration: BoxDecoration(
             color: Theme.of(context).colorScheme.background,
