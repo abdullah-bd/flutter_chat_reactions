@@ -203,7 +203,7 @@ class _ReactionsDialogWidgetState extends State<ReactionsDialogWidget> {
               ),
             ],
           ),
-          child: Row(
+          child: Wrap(
             mainAxisSize: MainAxisSize.min,
             children: [
               for (var reaction in widget.reactions)
